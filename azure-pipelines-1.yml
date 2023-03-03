@@ -12,7 +12,7 @@ steps:
 #Settings:
   - task: Bash@3
     inputs:
-      filePath: ./cicd-api.sh
+      filePath: ./Test.sh
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: Junit
